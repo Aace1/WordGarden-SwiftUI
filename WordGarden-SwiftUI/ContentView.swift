@@ -22,7 +22,7 @@ struct ContentView: View {
     @State private var playAgainButtonLabel = "Another Word?"
     @FocusState private var textFieldIsFocused: Bool
     
-    private let wordsToGuess = ["LAMBO", "CAT", "RAT"]
+    private let wordsToGuess = ["LAMBO", "CAT", "Hat"]
     private let maximumGuesses = 8
     
     
